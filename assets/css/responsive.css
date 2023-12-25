@@ -1,0 +1,21 @@
+
+@media (max-width: 600px) {
+    .hide-small {
+        display: none;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 993px) {
+    #content .menu-section {
+        flex-direction: column;
+    }
+
+    #content .menu-item {
+        width: 100%;
+    }
+}

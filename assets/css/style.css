@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.tag {
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.w3-input {
+    padding: 16px 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-tnr {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-gray {
+    color: #757575;
+}
+
+.text-blue {
+    color: #607d8b;
+}
+
+.white {
+    color: #000;
+    background-color: #fff;
+}
+
+.letter-spacing-4 {
+    letter-spacing: 4px;
+}
+
+.gray-bc {
+    background-color: #f1f1f1;
+}
+
+
+.gray-hover:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.padding {
+    padding: 8px 16px;
+}
+
+.padding-12-24 {
+    padding: 12px 24px;
+}
+
+.margin-10-0 {
+    margin: 10px 0;
+}
+
+.margin-15-0 {
+    margin: 15px 0;
+}
+
+.margin-18-0 {
+    margin: 18px 0;
+}
+
+.heading {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+#slider {
+    position: relative;
+    top: 54.5px;
+    padding-top: 50%;
+    background: url(/assets/imgs/hamburger.jpg) top center / cover no-repeat;
+}
+
+#slider .slide-heading {
+    bottom: 0;
+    padding: 22px 24px;
+    opacity: 0.6;
+}
+
+#content {
+    position: relative;
+    top: 54.5px;
+    width: 1100px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .about-section {
+    padding: 64px 0;
+    display: flex;
+}
+
+#content .menu-section {
+    padding: 64px 0;
+    display: flex;
+}
+
+#contact-section {
+    padding: 64px 16px;
+}
+
+#slider {
+    position: relative;
+    top: 54.5px;
+}
